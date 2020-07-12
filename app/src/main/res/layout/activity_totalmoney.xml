@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homebg"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".totalmoney">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/homebtn"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/circlebtn"
+            android:src="@drawable/ic_sharp_home_24px" />
+
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="match_parent" />
+
+        <ImageButton
+            android:id="@+id/infobtn"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/circlebtn"
+            android:src="@drawable/ic_baseline_info_24px" />
+
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="match_parent" />
+
+        <ImageButton
+            android:id="@+id/cancelbtn"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/circlebtn"
+            android:baselineAligned="false"
+            android:src="@drawable/ic_baseline_highlight_off_24px" />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/whitebtnbg"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:text="TOTAL MONEY"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/Txtspeaker"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/circlebtn"
+            android:src="@drawable/ic_baseline_volume_up_little"/>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/counttxt"
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:textSize="21dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/textfield2"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            />
+
+        <ImageButton
+            android:id="@+id/speackercounttxt2Btn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/circlebtn"
+            android:src="@drawable/ic_baseline_volume_up_24px" />
+
+
+    </LinearLayout>
+
+
+
+
+    <Button
+        android:id="@+id/clearbtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="CLEAR"
+        android:textSize="21dp"
+        android:layout_gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/rectanglebtn2"
+        android:layout_marginTop="10dp"/>
+
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/homebg"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/onetkcoin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/onetkcoin" />
+
+
+            <ImageButton
+                android:id="@+id/twotkcoin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/twotkcoin" />
+
+
+            <ImageButton
+                android:id="@+id/fivetkcoin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/fivetkcoin" />
+
+            <ImageButton
+                android:id="@+id/tk2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/tk2" />
+
+
+            <ImageButton
+                android:id="@+id/tk5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/tk5" />
+
+            <ImageButton
+                android:id="@+id/tk10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/tk10" />
+
+            <ImageButton
+                android:id="@+id/tk20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/tk20" />
+
+            <ImageButton
+                android:id="@+id/tk50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/tk50" />
+
+            <ImageButton
+                android:id="@+id/tk100"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/tk100" />
+
+            <ImageButton
+                android:id="@+id/tk500"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/tk500" />
+
+            <ImageButton
+                android:id="@+id/tk1000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/tk1000" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

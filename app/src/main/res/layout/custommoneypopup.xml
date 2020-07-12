@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="475dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/colorPrimary"
+    android:padding="5dp"
+    >
+
+    <TextView
+        android:id="@+id/txtclose"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="end"
+        android:background="@drawable/circlebtn"
+        android:gravity="center"
+        android:text="X"
+        android:textColor="#FFF"
+        android:textStyle="bold" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_marginTop="10dp"
+        android:id="@+id/startImage"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/happy" />
+
+    <TextView
+        android:id="@+id/answertxt"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/bowlby_one"
+        android:textSize="120dp" />
+
+
+</LinearLayout>

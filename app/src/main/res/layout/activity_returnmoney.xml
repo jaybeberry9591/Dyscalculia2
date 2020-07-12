@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homebg"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".returnmoney">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/homebtn"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/circlebtn"
+            android:src="@drawable/ic_sharp_home_24px" />
+
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="match_parent" />
+
+        <ImageButton
+            android:id="@+id/infobtn"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/circlebtn"
+            android:src="@drawable/ic_baseline_info_24px" />
+
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="match_parent" />
+
+        <ImageButton
+            android:id="@+id/cancelbtn"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/circlebtn"
+            android:src="@drawable/ic_baseline_highlight_off_24px" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/whitebtnbg"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/returncounttxt"
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:text="TOTAL COST"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/returncounttxtspeaker"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/circlebtn"
+            android:src="@drawable/ic_baseline_volume_up_little"/>
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/returncounttxt2"
+            android:layout_width="280dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="45dp"
+            android:textSize="21dp"
+            android:gravity="center"
+            android:background="@drawable/textfield2"
+            android:textColor="#000"
+            />
+
+        <ImageButton
+            android:id="@+id/speackerretuncounttxt2Btn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/circlebtn"
+            android:src="@drawable/ic_baseline_volume_up_24px" />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/returnokbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/rectanglebtn2"
+            android:text="OK"
+            android:textColor="@color/colorPrimary"
+            android:textSize="21dp" />
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/checkokbtn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Check"
+            android:textSize="21dp"
+            android:layout_gravity="center"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/regtanglebtn"
+            android:layout_marginTop="0dp"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:background="@drawable/whitebtnbg"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/returntxt"
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:text="RETURN YOU WILL GET"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/returntxtspeaker"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/circlebtn"
+            android:src="@drawable/ic_baseline_volume_up_little"/>
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/returntxt2"
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:textSize="21dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/textfield2"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            />
+
+        <ImageButton
+            android:id="@+id/speackerreturntxt2Btn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/circlebtn"
+            android:src="@drawable/ic_baseline_volume_up_24px" />
+
+
+    </LinearLayout>
+
+
+
+
+
+    <ScrollView
+        android:id="@+id/returnscrollview"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/homebg"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/returnonetkcoin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/onetkcoin" />
+
+
+            <ImageButton
+                android:id="@+id/returntwotkcoin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/twotkcoin" />
+
+
+            <ImageButton
+                android:id="@+id/returnfivetkcoin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/fivetkcoin" />
+
+            <ImageButton
+                android:id="@+id/returntk2"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tk2" />
+
+
+            <ImageButton
+                android:id="@+id/returntk5"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tk5" />
+
+            <ImageButton
+                android:id="@+id/returntk10"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tk10" />
+
+            <ImageButton
+                android:id="@+id/returntk20"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tk20" />
+
+            <ImageButton
+                android:id="@+id/returntk50"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tk50" />
+
+            <ImageButton
+                android:id="@+id/returntk100"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tk100" />
+
+            <ImageButton
+                android:id="@+id/returntk500"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tk500" />
+
+            <ImageButton
+                android:id="@+id/returntk1000"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tk1000" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
